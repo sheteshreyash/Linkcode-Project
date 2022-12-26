@@ -26,3 +26,8 @@ Plan of Action :
 4) Use of API of social media applications to display the social media handles of clinic.
 
 
+To use the Git, do the following steps :-
+i) Download gitbash on your device
+ii) Make an Empty folder on your device
+iii) Open the folder, right click and select "open gitbash here" and type "git init" in the terminal
+iv) Write "git clone 
