@@ -1,2 +1,28 @@
 # Linkcode-Project-Group_3
-Welcome to Online Laboratory Management System  (A website regarding online diagnostic center (E-Lab))  
+
+(A website regarding online diagnostic center (E-Lab))
+
+Our Team Members are :
+Shreyash Shete
+Ahilya Bandgar 
+Alisha Shaikh 
+Gauri Pingat 
+Komal More 
+Mrunal Nigade
+Vimukta Rokade 
+Nikhil Chavan
+Rutuja Pawale 
+Saurabh Gaikwad
+Shubham Gaikwad 
+Vaishnavi Katore 
+
+Synopsis :
+Our website will consists various services provided by a pathology lab. The users will also able to register an online appointment of the lab through our portal 
+
+Plan of Action :
+1) Data collection = Collecting data of various tests conducted in the clinic.
+2) SRS documentation :
+3) On Demand data : 
+4) Use of API of social media applications to display the social media handles of clinic.
+
+
