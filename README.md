@@ -66,4 +66,13 @@ v) Now open that folder (linkcode-project-group3) and open gitbash (right click)
                                                                     *  git commit -m "---your msg----" ( to commit your changes into the repo )
                                                                     *  git push origin main ( to update your changes from your device on the public repo )
  
+
+* How to delete the file in the repository :
+
+git pull origin main 
+1) type [git reset HEAD fileName]
+2) type [git rm --cached fileName]
+3) [git status]
+4) [git commit --m "file deleted"]
+5) [git push origin main ]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
