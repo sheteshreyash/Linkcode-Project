@@ -2,52 +2,9 @@
 
 (A website regarding online diagnostic center (E-Lab))
 
-Our Team Members are :
------------------------------------------------------------
-                Team - 1 (Backend/Database)
-
-Shreyash Shete (Backend/database/frontend)
-
-Ahilya Bandgar 
-
-Alisha Shaikh
-
-Gauri Pingat 
-
-Saurabh Gaikwad
-
-Ruchira *
-
-Nikhil Chavan 
-
-Shubham Gaikwad
-
------------------------------------------------------------
-                Team - 2 (Frontend) 
-
-Komal More 
-
-Mrunal Nigade 
-
-Rutuja Pawale 
-
-Vaishnavi Katore 
-
--------------------------------------------------------------
-
-
 Synopsis :
 Our website will consists various services provided by a pathology lab. The users will also able to register an online appointment of the lab through our portal 
 
------------------------------------------------------------------
-
-Plan of Action :
-1) Data collection = Collecting data of various tests conducted in the clinic.
-2) SRS documentation :
-3) On Demand data : 
-4) Use of API of social media applications to display the social media handles of clinic.
-
---------------------------------------------------------------------
 
 To use the Git, do the following steps :-
 
