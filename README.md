@@ -28,7 +28,7 @@ v) Now open that folder (linkcode-project-group3) and open gitbash (right click)
 
 git pull origin main 
 1) type [git reset HEAD fileName]
-2) type [git rm --cached fileName]
+2) type [git rm --cached -r fileName]
 3) [git status]
 4) [git commit -m "file deleted"]
 5) [git push origin main ]
