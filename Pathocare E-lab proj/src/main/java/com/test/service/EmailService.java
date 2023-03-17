@@ -18,7 +18,7 @@
 // import jakarta.mail.Transport;
 // import jakarta.mail.internet.InternetAddress;
 // import jakarta.mail.internet.MimeMessage;
-// import jakarta.mail.Message.RecipientType;
+// import javax.mail.Message;
 
 
 // @Service
@@ -48,14 +48,12 @@
 //         });
 
 //         ses.setDebug(true);
-
 //         MimeMessage m = new MimeMessage(ses);
 
 //         try {
             
-//             m.setFrom(from);
-            
-//             m.addRecipient(((RecipientType.TO)MessageAware), new InternetAddress(to));
+//             m.setFrom(from);            
+//             m.addRecipient(((TO)MessageAware.RecipientType), new InternetAddress(to));
 //             m.setSubject(subject);
 //             m.setText(Message);
 //             Transport.send(m);
