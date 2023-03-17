@@ -223,66 +223,131 @@
 
 
     <!-- Services Start -->
+
+    <!-- Swiper CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+    <!-- Services CSS -->
+    <!-- <link rel="stylesheet" href="/elementor/css/services.css"> -->
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+
     <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
                 <h1 class="display-4">Excellent Medical Services</h1>
+            </div> 
+<!--    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="/elementor/servicesimg/bloodtest.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">BLOOD TEST</h2>
+                        <p class="description">A laboratory analysis of a person's blood sample to measure various components as red and white blood cells, platelets, electrolytes, glucose, hormones.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="/elementor/servicesimg/x-rays.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">X-RAY</h2>
+                        <p class="description">X-ray is a medical imaging technique that uses electromagnetic radiation to create images of the inside of the body. Used to diagnose bone fractures, lung infection.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="/elementor/servicesimg/ct scan.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">CT SCAN</h2>
+                        <p class="description">A procedure that uses a computer linked to an x-ray machine to make a series of detailed pictures of areas inside the body.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="/elementor/servicesimg/sonography.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">SONOGRAPHY</h2>
+                        <p class="description">It is a non-invasive medical imaging procedure that uses high-frequency sound waves to create images of the body's internal structures.</p>
+
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+                </div>
             </div>
+        </div>
 
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div> -->
 
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-user-md text-white"></i>
+    <!-- JavaScript -->
+    <!-- <script src="js/script.js"></script>
+    <script>
+        var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    },
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next",
+    },
 
-                    </i> 
-                        </div>
-                        <h4 class="mb-3">CT Scan</h4>
-                        <p class="m-0"> CT scan is a medical imaging procedure that uses X-rays and advanced computer technology to create detailed, cross-sectional images of the body.</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-procedures text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Sonography</h4>
-                        <p class="m-0">Sonography as ultrasound, is a non-invasive medical imaging procedure that uses high-frequency sound waves to create images of the body's internal structures.</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-stethoscope text-white"></i>
-                        </div>
-                        <h4 class="mb-3">X-Ray</h4>
-                        <p class="m-0">X-ray is a medical imaging technique that uses electromagnetic radiation to create images of the inside of the body.</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-microscope text-white"></i> 
-                        </div>
-                        <h4 class="mb-3">Blood Testing</h4>
-                        <p class="m-0"> Analysis of a person's blood sample to measure various components such as red and white blood cells, platelets, electrolytes, glucose, hormones</p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+});
+
+        </script> -->
         </div>
     </div>
     <!-- Services End -->
