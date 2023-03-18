@@ -39,5 +39,4 @@
 //     public String toString() {
 //         return "EmailReq [to=" + to + ", subject=" + subject + ", Message=" + Message + "]";
 //     }
-    
 // }
