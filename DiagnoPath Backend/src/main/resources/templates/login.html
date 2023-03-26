@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+
+<title>Login Page</title>
+<link rel="stylesheet"  th:href="@{/css/style.css}">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<!-- error message  -->
+	<div th:if="${param.error}">
+		<div class="alert alert-danger">Invalid user-name or password</div>
+	</div>
+
+	<!--  message  -->
+	<div th:if="${param.change}">
+		<div class="alert alert-danger">
+			<p th:text="${param.change}"></p>
+		</div>
+	</div>
+
+	<form method="post" th:action="@{/login}">
+
+		<h2 class="title">Login</h2>
+
+		<div class="div">
+			<input id="username" type="text" placeholder="Username" class="input"
+				name="username">
+		</div>
+
+
+	    <div class="div">
+			<input id="password" type="password" placeholder="Password" class="input" name="password">
+			<label for="show-password"><input id="show-password" type="checkbox"> Show password</label>
+		  </div>
+		  
+		  <script>
+			const passwordInput = document.getElementById('password');
+			const showPasswordCheckbox = document.getElementById('show-password');
+			
+			showPasswordCheckbox.addEventListener('change', () => {
+			  const isChecked = showPasswordCheckbox.checked;
+			  passwordInput.type = isChecked ? 'text' : 'password';
+			});
+		  </script>
+		  
+         <div class="forgot-password">
+		<a  style="color: rgb(51, 51, 188);" th:href="@{/forgot}">Forgot Password?</a>
+	     </div>
+
+		 
+		 <div class="submit">
+		 <input style="width:150px"; type="submit" class="btn" value="Login">
+		</div>
+		<div>
+			<p style="display: inline;">
+			 Don't have an account? <a style="color: rgb(51, 51, 188);" href="/" th:href="@{/register}">Register Here</a>
+			</p>
+		</div>
+	</form>
+</body>
+</html>

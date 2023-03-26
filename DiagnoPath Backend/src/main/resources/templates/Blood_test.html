@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book a Test</title>
+	<link rel="stylesheet" href="Blood_test.css" type="text/css">
+	
+</head>
+
+<body>
+	
+	<div class="main">
+	<div class="register">
+		<h2>Book a Test</h2>
+		
+		<form id="register" method="post">
+		<label>First Name : </label>
+		<br>
+		<input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+		<br><br>
+		<label>Last Name : </label>
+		<br>
+		<input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+		<br><br>
+		<label>Age : </label>
+		<br>
+		<input type="number" name="age" id="name" placeholder="How Old are you?">
+		<br><br>
+
+		<label>Gender : </label>
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" id="male">
+		&nbsp;
+		<span id="male">Male</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" id="female">
+		&nbsp;
+		<span id="female">Female</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" id="other">
+		&nbsp;
+		<span id="other">Other</span>
+		<br><br>
+		
+		<label>Blood Group : </label>
+
+		<select>
+			<option selected disabled>Select your blood group</option>
+			<option>A +</option>
+			<option>A -</option>
+			<option>B +</option>
+			<option>B -</option>
+			<option>AB +</option>
+			<option>AB -</option>
+			<option>O +</option>
+			<option>O -</option>
+			
+		</select>		
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<br>	<br>
+		<label>Email : </label>
+		<br>
+		<input type="text" name="email" id="name" placeholder="Enter Your Valid Email">
+		<br><br>
+		<label>Slot : </label>
+
+        <select>
+			<option selected disabled>Select slot</option>
+			<option>Slot-1 (8:00 AM - 10:00 AM)</option>
+			<option>Slot-2 (10:30 AM - 12:30 PM )</option>
+			<option>Slot-3 (2:00 PM- 4:00 PM)</option>
+			<option>Slot-4 (4:30 PM- 6:30 PM)</option>
+			<option>Slot-5 (8:00 PM- 10:00 AM)</option>
+        </select>
+		<br><br><br>
+		<input type="submit" value="Upload Prescription" name="submit" id="submit">
+		
+
+		<br><br>
+
+		<input type="submit" value="Book" name="submit" id="submit" >
+		</form>
+	</div>
+	</div>
+
+</body>
+</html>
