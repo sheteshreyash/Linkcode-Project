@@ -19,9 +19,12 @@ v) Now open that folder (linkcode-project-group3) and open gitbash (right click)
 
 How to delete the file in the repository :
 git pull origin main
-
 type [git reset HEAD fileName]
 type [git rm --cached -r fileName]
 [git status]
 [git commit -m "file deleted"]
 [git push origin main ]
+
+
+
+
